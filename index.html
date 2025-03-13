@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: linear-gradient(135deg, #6b8dd6, #8cc7ff);
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 0.5em;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5em;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #575757;
+            border-radius: 4px;
+        }
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            font-size: 30px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Sample Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a onclick="window.__DECA_CLIENT__01j69jd9jqb00jhk4xnn85ts52.chat.toggleChatWindow()">Chatbot Resola Org</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+            <p>This is the home section of the website.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This is the about section of the website.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>This is the services section of the website.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>This is the contact section of the website.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Sample Website. All rights reserved.</p>
+    </footer>
+    <!-- <button onclick="myFunction()">Click me Kubo</button>
+    <button onclick="myFunction1()">Click me Sang</button>
+
+
+    <script>
+        function myFunction() {
+            console.log('click');
+            window.__DECA_CLIENT__01hwmc2d7fyenbb0cbxdf66f2x.chat.toggleChatWindow();
+        }
+        function myFunction1() {
+            console.log('click1');
+            window.__DECA_CLIENT__01hz4dpn25es3kmvahskfzze9e.chat.toggleChatWindow();
+        }
+    </script> -->
+
+    <!-- DEV -->
+
+    <script type="module">
+        // import { chat } from 'http://localhost:8000/dist-client/chatbox.mjs';
+        import { chat } from 'https://cdn.deca-dev.com/client/chatbox/develop/chatbox.mjs';
+        window.__DECA_CLIENT__01hwmc2d7fyenbb0cbxdf66f2x = { chat: chat.load({
+          url: 'https://cdn.deca-dev.com/chatbox/01haxd218s50f6yy4jf2f92fzf/01hwmc2d7fyenbb0cbxdf66f2x.json',
+          domId: '01hwmc2d7fyenbb0cbxdf66f2x'
+        })};
+    </script> 
+<!-- 
+    <script type="module">
+        // import { chat } from 'http://localhost:8000/dist-client/chatbox.mjs';
+
+        import { chat } from 'https://cdn.deca-dev.com/client/chatbox/develop/chatbox.mjs';
+        window.__DECA_CLIENT__01hz4dpn25es3kmvahskfzze9e = { chat: chat.load({
+            url: 'https://cdn.deca-dev.com/chatbox/01haxd218s50f6yy4jf2f92fzf/01hz4dpn25es3kmvahskfzze9e.json',
+            domId: '01hz4dpn25es3kmvahskfzze9e'
+        })};
+    </script> -->
+
+    <!-- <script type="module">
+        import { chat } from 'http://localhost:8000/dist-client/chatbox.mjs';
+        // import { chat } from 'https://cdn.deca-dev.com/client/chatbox/develop/chatbox.mjs';
+        window.__DECA_CLIENT__01j69jd9jqb00jhk4xnn85ts52 = { chat: chat.load({
+          url: 'https://cdn.deca-dev.com/chatbox/01haxd218s50f6yy4jf2f92fzf/01j69jd9jqb00jhk4xnn85ts52.json',
+          domId: '01j69jd9jqb00jhk4xnn85ts52'
+        })};
+    </script> -->
+    
+
+    
+<!-- QA  -->
+	<!-- <script type="module">
+        // import { chat } from 'http://localhost:8000/dist-client/chatbox.mjs';
+
+        import { chat } from 'https://cdn.deca-dev.com/client/chatbox/develop/chatbox.mjs';
+        window.__DECA_CLIENT__01jfem9f357ef4gpy5p6yk3eng = { chat: chat.load({
+          url: 'https://cdn.deca-dev.com/chatbox/01hycn80wvnb0te4rvhjry27v0/01jfem9f357ef4gpy5p6yk3eng.json',
+          domId: '01jfem9f357ef4gpy5p6yk3eng'
+        })};
+    </script>  -->
+      
+    <!-- <script type="module">
+      import { chat } from 'http://localhost:8000/dist-client/chatbox.mjs';
+    // import { chat } from 'https://cdn.deca-dev.com/client/chatbox/develop/chatbox.mjs'; // dev
+      
+      window.__DECA_CLIENT__01j2avstxrph1zkwgnp7whcr18 = { chat: chat.load({
+        url: 'https://cdn.deca-dev.com/chatbox/01hycn80wvnb0te4rvhjry27v0/01j2avstxrph1zkwgnp7whcr18.json',
+        domId: '01j2avstxrph1zkwgnp7whcr18'
+      })};
+  </script> -->
+    
+</body>
+</html>
+
